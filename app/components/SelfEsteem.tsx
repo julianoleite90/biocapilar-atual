@@ -7,17 +7,17 @@ export default function SelfEsteem() {
           <div className="space-y-6 order-1 lg:order-1 flex flex-col justify-center text-center lg:text-left">
             {/* Main Headline */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-700 leading-tight">
-              Quando foi a última vez que você se sentiu confiante com seu peso e o seu corpo?
+              Quando foi a última vez que você se sentiu confiante e orgulhosa dos seus cabelos?
             </h2>
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                              <strong className="text-gray-800 font-bold">Definamax</strong> não é só um emagrecedor natural – é um recomeço.
+              <strong className="text-gray-800 font-bold">Biocapilar</strong> não é só um suplemento capilar – é o retorno da sua confiança feminina.
             </p>
 
             {/* Description */}
             <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-              Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com um emagrecedor que transforma seu peso em bem-estar. Definamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
+              Recupere a beleza natural dos seus cabelos e a autoestima que você merece com um suplemento que transforma fios fracos e ralos em cabelos fortes e volumosos. Biocapilar foi criado para que cada fio regenerado signifique mais autoestima, mais confiança e mais orgulho em ser você - naturalmente, sem químicas agressivas, com resultados que vão muito além do espelho.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function SelfEsteem() {
             <div className="flex justify-center w-full">
               <img 
                 src="/jeans.png" 
-                alt="Jeans que não entram mais" 
+                alt="Mulher confiante com cabelos saudáveis" 
                 className="max-w-full h-auto"
                 style={{ maxHeight: '600px' }}
               />

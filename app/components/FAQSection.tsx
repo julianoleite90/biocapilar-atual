@@ -14,24 +14,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Como devo tomar o Definamax?",
-      answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
+      question: "Como devo tomar o Biocapilar?",
+      answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente pela manhã e noite, sempre com um copo de água. Para melhores resultados, tome uma cápsula após o café da manhã e outra após o jantar, mantendo sempre a regularidade no horário."
     },
     {
-      question: "Quanto tempo demora para ver resultados?",
-      answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 a 6 meses."
+      question: "Quanto tempo demora para ver resultados nos cabelos?",
+      answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria das mulheres começa a notar redução na queda após 30 dias de uso contínuo. O fortalecimento dos fios e crescimento de novos cabelos torna-se mais visível entre 60 a 90 dias. Para resultados completos, recomendamos o tratamento de 3 a 6 meses."
     },
     {
-      question: "O Definamax tem efeitos colaterais?",
-      answer: "Por ser um produto 100% natural, o Definamax não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
+      question: "O Biocapilar tem efeitos colaterais?",
+      answer: "Por ser um produto 100% natural, o Biocapilar não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
     },
     {
-      question: "Preciso fazer dieta enquanto tomo Definamax?",
-      answer: "O Definamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
+      question: "Funciona para todos os tipos de queda de cabelo?",
+      answer: "O Biocapilar é eficaz para a maioria dos casos de queda capilar feminina, incluindo alopecia androgenética, queda por estresse, deficiências nutricionais e enfraquecimento dos fios. Por atuar na nutrição dos folículos capilares desde a raiz, oferece resultados significativos na grande maioria dos casos."
     },
     {
       question: "Como funciona a garantia de satisfação?",
-      answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeito com os resultados, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, sem questionamentos."
+      answer: "Oferecemos 30 dias de garantia incondicional. Se você não ficar satisfeita com os resultados nos seus cabelos, basta entrar em contato com nosso atendimento e solicitar o reembolso total do seu investimento, sem questionamentos."
     },
     {
       question: "Qual o prazo de entrega?",
@@ -52,7 +52,7 @@ export default function FAQSection() {
             Perguntas Frequentes
           </h2>
           <p className="text-lg text-gray-600">
-            Tire suas dúvidas sobre o Definamax
+            Tire suas dúvidas sobre o Biocapilar
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function FAQSection() {
             onClick={scrollToKits}
             className="bg-green-700 hover:bg-green-800 text-white font-bold py-4 px-8 md:px-12 rounded-lg text-sm md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl uppercase"
           >
-            SIM, QUERO COMEÇAR A EMAGRECER!
+            SIM, QUERO TER CABELOS MAIS FORTES!
           </button>
         </div>
       </div>

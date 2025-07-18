@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import VideoPlayer from './VideoPlayer';
 
-// Barra superior verde escura com desconto
+// Barra superior rosa escura com desconto
 const TopBanner = styled.div`
-  background: #1a4d2e;
+  background: #8B2C5A;
   color: white;
   padding: 8px 0;
   text-align: center;
@@ -146,7 +146,7 @@ const PromoSection = styled.div`
 
 const PromoHighlight = styled.div`
   background: white;
-  color: #1a4d2e;
+  color: #000000;
   padding: 3px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
@@ -302,13 +302,13 @@ const Subtitle = styled(motion.p)`
 
 // CTA Button
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #1a4d2e 0%, #22c55e 50%, #16a34a 100%);
+  background: linear-gradient(135deg, #8B2C5A 0%, #C54A7B 50%, #8B2C5A 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 900;
   padding: 20px 50px;
   border-radius: 8px;
-  border: 3px solid #1a4d2e;
+  border: 3px solid #8B2C5A;
   cursor: pointer;
   box-shadow: 
     0 20px 40px rgba(0, 0, 0, 0.6),
@@ -336,7 +336,7 @@ const CTAButton = styled(motion.button)`
   
   &:hover {
     transform: translateY(-5px) scale(1.05);
-    background: linear-gradient(135deg, #15402a 0%, #1d8f47 50%, #14803d 100%);
+    background: linear-gradient(135deg, #7A2450 0%, #B8456E 50%, #7A2450 100%);
     box-shadow: 
       0 25px 50px rgba(0, 0, 0, 0.7),
       0 15px 30px rgba(0, 0, 0, 0.5),
@@ -358,10 +358,10 @@ const CTAButton = styled(motion.button)`
     margin-bottom: 40px;
     letter-spacing: 1px;
     white-space: nowrap;
-    box-shadow: 0 12px 25px rgba(26, 77, 46, 0.4), 0 4px 12px rgba(26, 77, 46, 0.2);
+    box-shadow: 0 12px 25px rgba(139, 44, 90, 0.4), 0 4px 12px rgba(139, 44, 90, 0.2);
     
     &:hover {
-      box-shadow: 0 15px 35px rgba(26, 77, 46, 0.5), 0 6px 18px rgba(26, 77, 46, 0.3);
+      box-shadow: 0 15px 35px rgba(139, 44, 90, 0.5), 0 6px 18px rgba(139, 44, 90, 0.3);
     }
   }
   
@@ -374,7 +374,7 @@ const CTAButton = styled(motion.button)`
 
 // Barra inferior com animação
 const BottomBanner = styled.div`
-  background: #1a4d2e;
+  background: #8B2C5A;
   color: white;
   padding: 15px 0;
   position: relative;
@@ -456,7 +456,7 @@ const Hero = () => {
         <DesktopContent>
           <DiscountSection>
             <DiscountMain>57% OFF</DiscountMain>
-            <DiscountSub>KIT DE 5 MESES</DiscountSub>
+            <DiscountSub>KIT DE 3 MESES</DiscountSub>
           </DiscountSection>
           
           <CountdownContainer>
@@ -471,8 +471,8 @@ const Hero = () => {
           </CountdownContainer>
           
           <PromoSection>
-            <PromoHighlight>5 MESES. 1 NOVA VERSÃO DE VOCÊ</PromoHighlight>
-            <PromoText>Você faz a escolha.<br/>A DEFINAMAX te entrega o plano.</PromoText>
+            <PromoHighlight>3 MESES. SUA AUTOESTIMA RENOVADA</PromoHighlight>
+            <PromoText>Você faz a escolha.<br/>O Biocapilar entrega os resultados.</PromoText>
           </PromoSection>
         </DesktopContent>
 
@@ -480,7 +480,7 @@ const Hero = () => {
         <MobileTopRow>
           <DiscountSection>
             <DiscountMain>57% OFF</DiscountMain>
-            <DiscountSub>KIT DE 5 MESES</DiscountSub>
+            <DiscountSub>KIT DE 3 MESES</DiscountSub>
           </DiscountSection>
           
           <CountdownContainer>
@@ -517,8 +517,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <h1>
-              <TitleMain>TRANSFORME O SEU CORPO</TitleMain>
-              <TitleSub>E RECUPERE A AUTOESTIMA</TitleSub>
+              <TitleMain>SEU CABELO MERECE MAIS SAÚDE</TitleMain>
+                              <TitleSub>E VOCÊ, MAIS AUTOESTIMA!</TitleSub>
             </h1>
           </MainTitle>
 
@@ -527,7 +527,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            A forma mais prática e eficiente de emagrecer a qualquer hora, em qualquer lugar — mais de 45 mil pessoas já transformaram suas vidas com o DEFINAMAX®
+            Acabe com a queda de cabelos em poucas semanas e volte a se sentir poderosa todos os dias! ✨
           </Subtitle>
 
           <VideoPlayer />
@@ -545,23 +545,23 @@ const Hero = () => {
               }
             }}
           >
-            EXPERIMENTE DEFINAMAX
+            EXPERIMENTE BIOCAPILAR
           </CTAButton>
         </MainContent>
 
         <BottomBanner>
           <ScrollingText>
-            <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
+            <TextItem>57% OFF NO KIT DE 3 MESES</TextItem>
             <TextItem>MAIS DE 45 MIL TRANSFORMADOS</TextItem>
             <TextItem>MÉTODO COMPROVADO</TextItem>
             <TextItem>RESULTADOS GARANTIDOS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ</TextItem>
+            <TextItem>ACABE COM A QUEDA</TextItem>
             <TextItem>TEMPO LIMITADO</TextItem>
-            <TextItem>57% OFF NO KIT DE 5 MESES</TextItem>
+            <TextItem>57% OFF NO KIT DE 3 MESES</TextItem>
             <TextItem>MAIS DE 45 MIL TRANSFORMADOS</TextItem>
             <TextItem>MÉTODO COMPROVADO</TextItem>
             <TextItem>RESULTADOS GARANTIDOS</TextItem>
-            <TextItem>EMAGRECIMENTO EFICAZ</TextItem>
+            <TextItem>ACABE COM A QUEDA</TextItem>
             <TextItem>TEMPO LIMITADO</TextItem>
           </ScrollingText>
         </BottomBanner>

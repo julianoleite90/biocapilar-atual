@@ -104,20 +104,20 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "Como devo tomar o Definamax?",
+      question: "Como devo tomar o Biocapilar?",
       answer: "Recomenda-se tomar 2 cápsulas por dia, preferencialmente antes das principais refeições. Para melhores resultados, tome uma cápsula 30 minutos antes do almoço e outra 30 minutos antes do jantar, sempre com um copo de água."
     },
     {
+      question: "O Biocapilar tem efeitos colaterais?",
+      answer: "Por ser um produto 100% natural, o Biocapilar não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
+    },
+    {
       question: "Quanto tempo demora para ver resultados?",
-      answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 a 6 meses."
+      answer: "Os resultados podem variar de pessoa para pessoa, mas a maioria dos usuários começa a notar mudanças significativas após 30 dias de uso contínuo. Para resultados mais expressivos, recomendamos o tratamento completo de 3 meses."
     },
     {
-      question: "O Definamax tem efeitos colaterais?",
-      answer: "Por ser um produto 100% natural, o Definamax não apresenta efeitos colaterais significativos. No entanto, como todo suplemento, recomendamos consultar um profissional de saúde antes de iniciar o uso, especialmente se você estiver grávida, amamentando ou em tratamento médico."
-    },
-    {
-      question: "Preciso fazer dieta enquanto tomo Definamax?",
-      answer: "O Definamax funciona mesmo sem dietas restritivas, pois age reduzindo naturalmente seu apetite e a absorção de gorduras. No entanto, para resultados ainda melhores, recomendamos manter uma alimentação equilibrada e praticar atividades físicas regularmente."
+      question: "Preciso usar algum tônico capilar?",
+      answer: "O Biocapilar funciona mesmo sem o uso de tônicos, pois age de dentro para fora, nutrindo os folículos e repondo as vitaminas ausentes em seu organismo."
     },
     {
       question: "Como funciona a garantia de satisfação?",

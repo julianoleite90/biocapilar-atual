@@ -85,10 +85,10 @@ export default function TestimonialsCarousel() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Veja os resultados de <span className="text-green-700">pessoas</span> que viveram
+            Veja os resultados de <span className="text-green-700">mulheres</span> que recuperaram
           </h2>
           <p className="text-xl md:text-2xl text-gray-700">
-            a transformação de corpo e de vida com o <span className="font-bold text-green-700">Definamax</span>!
+            a beleza e volume dos seus cabelos com o <span className="font-bold text-green-700">Biocapilar</span>!
           </p>
         </div>
 
@@ -104,7 +104,7 @@ export default function TestimonialsCarousel() {
                   <div className="relative h-80 md:h-96">
                     <img
                       src={testimonial.image}
-                      alt="Transformação antes e depois"
+                      alt="Transformação capilar antes e depois"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -136,7 +136,7 @@ export default function TestimonialsCarousel() {
                 <div className="relative h-80">
                   <img
                     src={testimonial.image}
-                    alt="Transformação antes e depois"
+                    alt="Transformação capilar antes e depois"
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>

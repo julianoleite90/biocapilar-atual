@@ -7,7 +7,7 @@ export default function WarrantyTermsPage() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-white">
       {/* Header */}
-      <header className="w-full bg-gradient-to-r from-green-800 via-green-700 to-green-800 py-4 shadow-md relative overflow-hidden">
+      <header className="w-full bg-gradient-to-r from-pink-800 via-pink-700 to-pink-800 py-4 shadow-md relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent)] animate-[shine_1.5s_infinite] pointer-events-none"></div>
         <div className="mx-auto max-w-5xl px-4 flex justify-center">
           <Image src="/logo2.png" alt="Definamax" width={200} height={60} className="h-12 w-auto" />

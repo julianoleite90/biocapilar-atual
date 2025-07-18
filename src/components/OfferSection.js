@@ -58,12 +58,12 @@ const LeftContent = styled.div`
 `;
 
 const DiscountBanner = styled.div`
-  background: linear-gradient(135deg, #1a4d2e 0%, #15402a 100%);
+  background: linear-gradient(135deg, #8B2C5A 0%, #7A2450 100%);
   color: white;
   padding: 40px 30px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(26, 77, 46, 0.3);
+  box-shadow: 0 10px 30px rgba(139, 44, 90, 0.3);
   text-align: center;
 `;
 
@@ -95,9 +95,9 @@ const BenefitsList = styled.div`
   gap: 20px;
   margin-bottom: 30px;
   padding: 25px;
-  border: 2px solid #1a4d2e;
+  border: 2px solid #8B2C5A;
   border-radius: 12px;
-  background: rgba(26, 77, 46, 0.05);
+  background: rgba(139, 44, 90, 0.05);
 `;
 
 const BenefitItem = styled.div`
@@ -200,7 +200,7 @@ const UrgencyText = styled(motion.div)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: linear-gradient(135deg, #1a4d2e 0%, #15402a 100%);
+  background: linear-gradient(135deg, #8B2C5A 0%, #C54A7B 50%, #8B2C5A 100%);
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
@@ -208,14 +208,14 @@ const CTAButton = styled(motion.button)`
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 10px 30px rgba(26, 77, 46, 0.3);
+  box-shadow: 0 10px 30px rgba(139, 44, 90, 0.3);
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
   
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(26, 77, 46, 0.4);
+    box-shadow: 0 15px 40px rgba(139, 44, 90, 0.4);
   }
 `;
 
@@ -267,8 +267,8 @@ const ResponsiveVideo = () => {
     return () => window.removeEventListener('resize', checkDevice);
   }, []);
 
-  // Vimeo IDs: mobile = 1100433009, desktop = 1100432285
-  const vimeoId = isMobile ? '1100433009' : '1100432285';
+  // Vimeo IDs: mobile = 1102385786, desktop = 1102385665
+  const vimeoId = isMobile ? '1102385786' : '1102385665';
   const vimeoSrc = `https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&autoplay=1&muted=0&controls=0&loop=1&responsive=1`;
 
   return (
@@ -303,19 +303,19 @@ const ResponsiveVideo = () => {
 const OfferSection = () => {
   const benefits = [
     {
-      text: "Emagreça sem recorrer a dietas extremas ou exercícios exaustivos."
+      text: "Método natural e clinicamente testado – Fortaleça seus fios sem químicas agressivas."
     },
     {
-      text: "Método natural e seguro para perder peso, sem efeitos colaterais."
+      text: "Estimule o crescimento acelerado – Veja resultados visíveis em poucas semanas."
     },
     {
-      text: "Fórmula eficaz para controlar a compulsão alimentar e controlar o apetite."
+      text: "Preencha falhas e entradas – Recupere a densidade e o volume que você amava."
     },
     {
-      text: "Solução pratica que se encaixa a sua rotina agitada."
+      text: "Solução prática para o dia a dia – Tratamento fácil de usar, mesmo na rotina mais agitada."
     },
     {
-      text: "Resultados rápidos e duradouros que melhoram a sua saúde em geral."
+      text: "Resultados duradouros – Cabelos mais fortes, saudáveis e cheios de vida!"
     }
   ];
 
@@ -329,8 +329,8 @@ const OfferSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            DESCUBRA O PODER DAS<br />
-            <span className="highlight">FIBRAS QUE ABSORVEM GORDURA</span> ✨
+            TUDO QUE O SEU CABELO PRECISA<br />
+            <span className="highlight">E NADA MAIS</span> ✨
           </MainTitle>
           
           <Subtitle
@@ -339,7 +339,7 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Seu novo capítulo começa agora.
+            A restauração dos seus cabelos começa aqui
           </Subtitle>
 
           <ContentGrid>
@@ -351,8 +351,8 @@ const OfferSection = () => {
                 viewport={{ once: true }}
               >
                 <DiscountBanner>
-                  <DiscountTitle>MAIS ABSORÇÃO =</DiscountTitle>
-                  <DiscountSubtitle>MAIOR PERDA DE PESO</DiscountSubtitle>
+                  <DiscountTitle>MAIS NUTRIÇÃO =</DiscountTitle>
+                  <DiscountSubtitle>MENOS QUEDA DE CABELOS</DiscountSubtitle>
                 </DiscountBanner>
                 
                 <BenefitsList>
@@ -375,17 +375,10 @@ const OfferSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            Uma fórmula exclusiva com fibras bioativas que agem como uma esponja no seu organismo, absorvendo gorduras e açúcares para reduzir a absorção calórica, controlar a fome e acelerar a perda de peso de forma natural e eficaz.
+            Fórmula exclusiva com ativos biomiméticos reativa os folículos capilares, bloqueando a queda desde a primeira aplicação, enquanto nutre profundamente a raiz para estimular um crescimento 3x mais rápido e preenche visivelmente as falhas com novos fios saudáveis.
           </PromoText>
 
-          <UrgencyText
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            viewport={{ once: true }}
-          >
-            Mas corra, essa oferta acaba em breve.
-          </UrgencyText>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -403,14 +396,14 @@ const OfferSection = () => {
                 }
               }}
             >
-              QUERO EMAGRECER COM DEFINAMAX
+              EU QUERO ACABAR COM A QUEDA
             </CTAButton>
           </motion.div>
         </Container>
       </OfferSectionWrapper>
 
       <WhatsAppFloat>
-        <a href="https://wa.me/5541984549172?text=Olá,%20eu%20estava%20no%20site%20do%20Definamax,%20e%20quero%20mais%20informações." target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5541984549172?text=Olá,%20eu%20estava%20no%20site%20do%20Biocapilar,%20e%20quero%20mais%20informações." target="_blank" rel="noopener noreferrer">
           COMPRE NO WHATSAPP
         </a>
       </WhatsAppFloat>

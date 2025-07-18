@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 const FlexibilityContainer = styled.section`
-  background: #e8f5e8;
+  background: #f8e8f2;
   padding: 80px 20px 0 20px;
   color: #333;
   text-align: center;
@@ -102,7 +102,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Quando foi a última vez que você se sentiu confiante com seu peso e o seu corpo?
+            Quando foi a última vez que você se sentiu confiante com seu cabelo?
           </MainTitle>
           
           <Description
@@ -111,7 +111,7 @@ const FlexibilitySection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Recupere a sua confiança em seu corpo e conquiste uma vida mais plena com um emagrecedor que transforma seu peso em bem-estar. Definamax foi criado para que cada quilo perdido signifique mais autoestima, mais confiança e mais amor próprio em seu dia a dia - naturalmente, sem sacrifícios, com resultados que vão muito além da balança.
+            Recupere a confiança em seus cabelos e a alegria de se olhar no espelho com Biocapilar: um tratamento revolucionário que interrompe a queda, acelera o crescimento e preenche falhas naturalmente, devolvendo não apenas fios mais fortes, mas toda a autoestima que você merece .
           </Description>
         </ContentArea>
 

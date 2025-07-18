@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterSection = styled.footer`
-  background: #1a4d2e;
+  background: #000000;
   color: white;
   padding: 50px 0 30px;
   text-align: center;
@@ -110,37 +110,36 @@ const Footer = () => {
       <Container>
         <BrandSection>
           <BrandLogo>
-            <img src="/logo-definamax.png" alt="Definamax - Emagrecedor Natural | Bourjam Nature Health" />
+            <img src="/white-biocapilar.png" alt="Biocapilar - Tratamento Capilar Natural | Bourjam Nature Health" />
           </BrandLogo>
           <BrandDescription>
-            Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.
+            Biocapilar - O seu aliado natural para cabelos saudáveis e fortes.
           </BrandDescription>
         </BrandSection>
 
         <DisclaimerText>
           *Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer 
-          doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.
+          doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de tratamento capilar.
         </DisclaimerText>
 
         <LinksSection>
           <FooterLinks>
-            <FooterLink href="https://www.definamaxoficial.com/avaliacao-imc" target="_blank" rel="noopener noreferrer">Avaliação do IMC</FooterLink>
+
+            <FooterLink href="https://www.biocapilaroficial.com/termos" target="_blank" rel="noopener noreferrer">Termos de Garantia</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/termos" target="_blank" rel="noopener noreferrer">Termos de Garantia</FooterLink>
+            <FooterLink href="https://www.biocapilaroficial.com/faq" target="_blank" rel="noopener noreferrer">Perguntas Frequentes</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/faq" target="_blank" rel="noopener noreferrer">Perguntas Frequentes</FooterLink>
+            <FooterLink href="https://www.biocapilaroficial.com/produtos" target="_blank" rel="noopener noreferrer">Produtos</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/produtos" target="_blank" rel="noopener noreferrer">Produtos</FooterLink>
+            <FooterLink href="https://www.biocapilaroficial.com/depoimentos" target="_blank" rel="noopener noreferrer">Depoimentos em Vídeo</FooterLink>
             <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/depoimentos" target="_blank" rel="noopener noreferrer">Depoimentos em Vídeo</FooterLink>
-            <LinkSeparator>|</LinkSeparator>
-            <FooterLink href="https://www.definamaxoficial.com/privacidade" target="_blank" rel="noopener noreferrer">Política de Privacidade</FooterLink>
+            <FooterLink href="https://www.biocapilaroficial.com/privacidade" target="_blank" rel="noopener noreferrer">Política de Privacidade</FooterLink>
           </FooterLinks>
         </LinksSection>
 
         <CopyrightSection>
           <Copyright>
-            Copyright © 2025 Definamax. Todos os direitos reservados.
+            Copyright © 2025 Biocapilar. Todos os direitos reservados.
           </Copyright>
           <CompanyInfo>
             Bourjam Nature Health, Florianópolis Santa Catarina

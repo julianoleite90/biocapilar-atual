@@ -21,7 +21,7 @@ const SectionTitle = styled(motion.h2)`
   text-align: center;
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 700;
-  color: #1a4d2e;
+  color: #000000;
   margin-bottom: 20px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -66,13 +66,13 @@ const KitsGrid = styled.div`
 `;
 
 const KitCard = styled(motion.div)`
-  background: #1a4d2e;
+  background: #8B2C5A;
   border-radius: 20px;
   padding: 25px 20px;
   color: white;
   position: relative;
   border: 4px solid white;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(139, 44, 90, 0.15);
   max-width: 360px;
   width: 100%;
   display: flex;
@@ -339,26 +339,27 @@ const KitsSection = () => {
   const kits = [
     {
       title: "TRATAMENTO PARA",
-      days: "150 DIAS",
+      days: "90 DIAS",
       oldPrice: "De R$879,00",
       mainPrice: "12x R$38,05",
       cashPrice: "ou R$379,00 à vista",
       products: [
-        "05 frascos de Definamax",
-        "2 frascos de colágeno para flacidez",
-        "Envio prioritário"
+        "03 frascos de Biocapilar",
+        "Frete prioritário",
+        "Envio imediato"
       ],
       image: "/5frascos.png",
       link: "https://full.sale/ytA47b"
     },
     {
       title: "TRATAMENTO PARA",
-      days: "90 DIAS",
+      days: "60 DIAS",
       oldPrice: "De R$589,00",
       mainPrice: "12x R$35,04",
       cashPrice: "ou R$349,00 à vista",
       products: [
-        "03 frascos de Definamax",
+        "02 frascos de Biocapilar",
+        "Entrega expressa",
         "Envio imediato"
       ],
       image: "/2frascos.png",
@@ -372,7 +373,7 @@ const KitsSection = () => {
       mainPrice: "12x R$23,79",
       cashPrice: "ou R$237,00 à vista",
       products: [
-        "01 frasco de Definamax",
+        "01 frasco de Biocapilar",
         "Envio imediato"
       ],
       image: "/1frasco.png",
@@ -389,7 +390,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          ESCOLHA SEU TRATAMENTO IDEAL
+          ESCOLHA O KIT IDEAL PARA OS SEUS CABELOS
         </SectionTitle>
         
         <SectionSubtitle
@@ -398,7 +399,7 @@ const KitsSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Para melhores resultados recomendamos o tratamento mais vendido de 5 meses
+          Para melhores resultados recomendamos o tratamento mais vendido de 3 meses
         </SectionSubtitle>
         
         <KitsGrid>

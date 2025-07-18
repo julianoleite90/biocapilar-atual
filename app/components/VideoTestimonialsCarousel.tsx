@@ -59,10 +59,10 @@ export default function VideoTestimonialsCarousel({ scrollToKits }: VideoTestimo
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Veja os depoimentos de quem já <span className="text-green-700">transformou</span> a vida
+            Veja os depoimentos de quem já <span className="text-green-700">recuperou</span> a beleza dos cabelos
           </h2>
           <p className="text-xl md:text-2xl text-gray-700">
-            Resultados reais de pessoas reais que escolheram o Definamax
+            Resultados reais de mulheres reais que escolheram o Biocapilar
           </p>
         </div>
 

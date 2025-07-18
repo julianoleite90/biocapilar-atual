@@ -28,7 +28,14 @@ Allow: /*.mp4$
 Allow: /*.webm$
 
 # Sitemap location
-Sitemap: https://www.definamaxoficial.com/sitemap.xml
+Sitemap: https://www.biocapilaroficial.com/sitemap.xml
 
 # Host directive
-Host: https://www.definamaxoficial.com 
+Host: https://www.biocapilaroficial.com
+
+# Additional SEO directives
+User-agent: facebookexternalhit/*
+Allow: /
+
+User-agent: Twitterbot
+Allow: / 

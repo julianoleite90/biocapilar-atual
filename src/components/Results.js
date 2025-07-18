@@ -86,7 +86,7 @@ const PersonInfo = styled.div`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: #1a4d2e;
+  background: #8B2C5A;
   color: white;
   font-size: 1.4rem;
   font-weight: 700;
@@ -95,12 +95,12 @@ const CTAButton = styled(motion.button)`
   border: none;
   cursor: pointer;
   margin-bottom: 30px;
-  box-shadow: 0 4px 20px rgba(26, 77, 46, 0.3);
+  box-shadow: 0 4px 20px rgba(139, 44, 90, 0.3);
   transition: all 0.3s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(26, 77, 46, 0.4);
+    box-shadow: 0 6px 25px rgba(139, 44, 90, 0.4);
   }
   
   @media (max-width: 768px) {
@@ -126,19 +126,16 @@ const Results = () => {
     {
       name: "Luana",
       age: "26 anos",
-      weight: "-30kg",
       image: "/luana.png"
     },
     {
       name: "Renatha Almeida", 
       age: "34 anos",
-      weight: "-12Kg",
       image: "/dep03.png"
     },
     {
       name: "Fernanda Costa",
-      age: "39 anos", 
-      weight: "-20Kg",
+      age: "31 anos", 
       image: "/dep01.png"
     }
   ];
@@ -152,8 +149,8 @@ const Results = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          BASTA INGERIR 2 CÁPSULAS AO DIA<br />
-          PARA <span className="highlight">ALCANÇAR O SEU OBJETIVO</span>
+          BASTA TOMAR 2 CÁPSULAS AO DIA<br />
+          PARA <span className="highlight">RESTAURAR OS SEUS CABELOS</span>
         </MainTitle>
         
         <Subtitle
@@ -162,7 +159,7 @@ const Results = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Veja o que é possível alcançar fazendo o uso corretamente do Definamax
+          Veja o que é possível alcançar fazendo o uso corretamente do Biocapilar
         </Subtitle>
 
         <ResultsGrid>
@@ -180,7 +177,7 @@ const Results = () => {
                
                <PersonInfo>
                  <span className="name">{result.name}</span>
-                 <span className="details">| {result.age} | {result.weight}</span>
+                 <span className="details">| {result.age}</span>
                </PersonInfo>
              </ResultItem>
           ))}
@@ -202,12 +199,12 @@ const Results = () => {
               }
             }}
           >
-            EU QUERO ESSES RESULTADOS
+            EU QUERO RESTAURAR MEUS CABELOS
           </CTAButton>
         </motion.div>
 
         <Disclaimer>
-          *Esses são usuários do Definamax® que alcançaram resultado seguindo todas as instruções. Os resultados variam para cada pessoa.
+          *Esses são usuários do Biocapilar® que alcançaram resultado seguindo todas as instruções. Os resultados variam para cada pessoa.
         </Disclaimer>
       </Container>
     </ResultsSection>

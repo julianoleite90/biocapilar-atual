@@ -188,7 +188,7 @@ const PlayButton = styled(motion.button)`
 
 
 const VideoPlayer = () => {
-  const [showThumbnail, setShowThumbnail] = useState(true);
+  const [showThumbnail, setShowThumbnail] = useState(false);
 
   const handlePlayClick = (e) => {
     e.preventDefault();
@@ -198,7 +198,7 @@ const VideoPlayer = () => {
   };
 
   // Vídeo COM SOM ATIVO - MESMO PADRÃO DOS DEPOIMENTOS QUE FUNCIONAM
-  const vimeoSrc = `https://player.vimeo.com/video/1100433386?badge=0&autopause=0&muted=0&controls=1&title=0&byline=0&portrait=0`;
+  const vimeoSrc = `https://player.vimeo.com/video/1102367381?badge=0&autopause=0&muted=0&controls=1&title=0&byline=0&portrait=0`;
 
   return (
     <PlayerContainer

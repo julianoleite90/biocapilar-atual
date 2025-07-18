@@ -17,7 +17,7 @@ export default function UrgencyBar() {
           <div className="flex items-center gap-2">
             <img 
               src="/logo2.png" 
-              alt="Definamax" 
+              alt="Biocapilar" 
               className="h-10 w-auto"
             />
           </div>
@@ -34,7 +34,7 @@ export default function UrgencyBar() {
         {/* Desktop Layout */}
         <div className="hidden md:block text-center">
           <p className="text-sm md:text-base font-medium">
-            <span className="font-bold">Nunca foi tão barato emagrecer.</span> Aproveite nossos super descontos nas compras acima de 2 potes!
+            <span className="font-bold">Nunca foi tão barato fortalecer seus cabelos.</span> Aproveite nossos super descontos nas compras acima de 2 potes!
           </p>
         </div>
       </div>

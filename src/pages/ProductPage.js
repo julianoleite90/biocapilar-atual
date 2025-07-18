@@ -811,7 +811,7 @@ const ProductPage = () => {
 
   // Função para abrir o WhatsApp
   const openWhatsApp = () => {
-    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Definamax.');
+    const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Biocapilar.');
     window.open(`https://wa.me/5541984549172?text=${message}`, '_blank');
   };
 
@@ -1189,7 +1189,7 @@ const ProductPage = () => {
 
           {/* Content Sections */}
           <ContentSection>
-            <SectionTitle>DESCUBRA O PODER DAS FIBRAS QUE ABSORVEM GORDURA! ✨</SectionTitle>
+            <SectionTitle>TUDO QUE O SEU CABELO PRECISA E NADA MAIS! ✨</SectionTitle>
             <ProductDescription style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.125rem' }}>
               <strong>ATENÇÃO:</strong> A fórmula DEFINAMAX contém fibras bioativas exclusivas que agem como uma ESPONJA no seu organismo, absorvendo gorduras e açúcares ANTES que sejam transformados em peso extra! Este é o SEGREDO por trás de mais de 45 MIL TRANSFORMAÇÕES reais!
             </ProductDescription>

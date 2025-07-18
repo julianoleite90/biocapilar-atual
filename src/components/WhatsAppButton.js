@@ -58,7 +58,7 @@ const WhatsAppIcon = styled(FaWhatsapp)`
 `;
 
 const WhatsAppButton = () => {
-  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Definamax.');
+  const message = encodeURIComponent('Olá! Gostaria de saber mais sobre o Biocapilar.');
   
   return (
     <WhatsAppContainer>

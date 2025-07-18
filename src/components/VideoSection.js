@@ -50,25 +50,31 @@ const SectionSubtitle = styled(motion.p)`
 
 const VideosGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 54px;
   justify-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
   
-  @media (max-width: 1200px) {
+  @media (max-width: 900px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 45px;
+    max-width: 700px;
   }
   
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 18px;
     padding: 0 10px;
+    max-width: 600px;
   }
   
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 27px;
     padding: 0 20px;
+    max-width: 350px;
   }
 `;
 
@@ -128,20 +134,16 @@ const VideoContainer = styled.div`
 const VideoSection = () => {
   const videos = [
     {
-      vimeoId: "1100433801",
-      title: "Perdi 15kg em 3 meses"
+      vimeoId: "1102393072",
+      title: "Meus cabelos pararam de cair"
     },
     {
-      vimeoId: "1100433922", 
-      title: "Voltei a usar M novamente"
+      vimeoId: "1102393088", 
+      title: "Crescimento acelerado dos fios"
     },
     {
-      vimeoId: "1100433861",
+      vimeoId: "1102393110",
       title: "Minha autoestima voltou"
-    },
-    {
-      vimeoId: "1100433969",
-      title: "Resultado em 30 dias"
     }
   ];
 
@@ -163,7 +165,7 @@ const VideoSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Depoimentos reais de pessoas que mudaram suas vidas com o DEFINAMAX
+          Depoimentos reais de pessoas que mudaram suas vidas com o BIOCAPILAR
         </SectionSubtitle>
         
         <VideosGrid>

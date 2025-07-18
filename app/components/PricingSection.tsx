@@ -17,14 +17,14 @@ export default function PricingSection() {
     {
       id: 1,
       name: "COMPRE 5 LEVE 8",
-      subtitle: "GANHE 1 FRASCO DE COLÁGENO",
-      description: "Tratamento Completo",
+      subtitle: "GANHE 1 SÉRUM CAPILAR GRÁTIS",
+      description: "Tratamento Completo Anti-Queda",
       image: "/8frascos.png",
       originalPrice: "De R$1.079,00",
       installments: "Por apenas 12x",
       price: "R$45,08",
       fullPrice: "Ou R$449,00 à vista!",
-      buttonText: "COMPRAR AGORA",
+      buttonText: "FORTALECER MEUS CABELOS",
       buttonColor: "bg-green-700 hover:bg-green-800",
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
@@ -36,14 +36,14 @@ export default function PricingSection() {
     {
       id: 2,
       name: "COMPRE 3 LEVE 5",
-      subtitle: "GANHE 1 FRASCO DE COLÁGENO",
+      subtitle: "GANHE 1 SÉRUM CAPILAR GRÁTIS",
       description: "Tratamento Mais Vendido",
       image: "/5frascos.png",
       originalPrice: "De R$879,00",
       installments: "Por apenas 12x",
       price: "R$38,05",
       fullPrice: "Ou R$379,00 à vista!",
-      buttonText: "COMPRAR AGORA",
+      buttonText: "FORTALECER MEUS CABELOS",
       buttonColor: "bg-green-700 hover:bg-green-800",
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
@@ -62,7 +62,7 @@ export default function PricingSection() {
       installments: "Por apenas 12x",
       price: "R$35,04",
       fullPrice: "Ou R$349,00 à vista!",
-      buttonText: "COMPRAR AGORA",
+      buttonText: "FORTALECER MEUS CABELOS",
       buttonColor: "bg-green-700 hover:bg-green-800",
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
@@ -79,7 +79,7 @@ export default function PricingSection() {
       installments: "Por apenas 12x",
       price: "R$23,79",
       fullPrice: "Ou R$237,00 à vista!",
-      buttonText: "COMPRAR AGORA",
+      buttonText: "FORTALECER MEUS CABELOS",
       buttonColor: "bg-green-700 hover:bg-green-800",
       cardColor: "bg-white",
       shipping: "FRETE GRÁTIS",
@@ -94,7 +94,7 @@ export default function PricingSection() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Escolha o kit perfeito para você
+            Escolha o kit perfeito para fortalecer seus cabelos
           </h2>
           <p className="text-lg text-gray-600">
             Restam <span className="underline font-semibold">poucos frascos</span> com <span className="font-bold text-red-600">FRETE GRÁTIS</span> no dia de hoje: <span className="font-bold text-red-600">{getCurrentDate()}</span>
@@ -154,7 +154,7 @@ export default function PricingSection() {
                       value: parseFloat(pkg.fullPrice.replace(/[^\d,]/g, '').replace(',', '.')),
                       currency: 'BRL',
                       item_name: pkg.name,
-                      item_category: 'suplemento_emagrecedor',
+                      item_category: 'suplemento_capilar',
                     })
                   }
                 }}
@@ -227,7 +227,7 @@ export default function PricingSection() {
                       value: parseFloat(pkg.fullPrice.replace(/[^\d,]/g, '').replace(',', '.')),
                       currency: 'BRL',
                       item_name: pkg.name,
-                      item_category: 'suplemento_emagrecedor',
+                      item_category: 'suplemento_capilar',
                     })
                   }
                 }}

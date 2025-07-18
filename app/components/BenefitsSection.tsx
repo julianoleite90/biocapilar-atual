@@ -10,51 +10,51 @@ export default function BenefitsSection() {
   const benefits = [
     {
       image: "/benefit-1.png",
-      title: "Deseja emagrecer",
-      subtitle: "sem recorrer a dietas extremas",
-      description: "ou exercícios exaustivos."
+      title: "Sofre com queda de cabelo",
+      subtitle: "e quer uma solução natural",
+      description: "sem químicas agressivas ou procedimentos invasivos."
     },
     {
       image: "/benefit-2.png", 
-      title: "Busca um método natural e",
-      subtitle: "seguro",
-      description: "para perder peso, sem efeitos colaterais."
+      title: "Busca um método seguro e",
+      subtitle: "comprovado",
+      description: "para fortalecer os fios e estimular o crescimento."
     },
     {
       image: "/benefit-3.png",
-      title: "Luta contra a compulsão alimentar",
+      title: "Tem cabelos finos e sem volume",
       subtitle: "e procura uma forma eficaz de",
-      description: "controlar o apetite."
+      description: "dar densidade e força aos fios."
     },
     {
       image: "/benefit-4.png",
-      title: "Quer aumentar seu metabolismo",
+      title: "Quer acelerar o crescimento capilar",
       subtitle: "de forma saudável,",
-      description: "mesmo enquanto está em repouso."
+      description: "nutrindo os folículos desde a raiz."
     },
     {
       image: "/benefit-5.png",
       title: "Precisa de uma solução prática",
       subtitle: "que se encaixe na sua rotina",
-      description: "agitada."
+      description: "de cuidados capilares."
     },
     {
       image: "/benefit-6.png",
-      title: "Está cansado(a) de produtos que",
+      title: "Está cansada de produtos que",
       subtitle: "prometem muito, mas entregam",
-      description: "pouco."
+      description: "pouco para seus cabelos."
     },
     {
       image: "/benefit-1.png",
       title: "Valoriza um produto com",
       subtitle: "ingredientes de alta qualidade",
-      description: "e comprovadamente eficazes."
+      description: "e clinicamente testados para cabelos."
     },
     {
       image: "/benefit-2.png",
       title: "Quer ver resultados rápidos e",
       subtitle: "duradouros",
-      description: "que também melhorem sua saúde geral."
+      description: "que também melhorem sua autoestima."
     }
   ]
 
@@ -64,7 +64,7 @@ export default function BenefitsSection() {
         {/* Título Principal */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            O <span className="text-green-600">Definamax</span> é a solução perfeita para você que...
+            O <span className="text-green-600">Biocapilar</span> é a solução perfeita para você que...
           </h2>
         </div>
 
@@ -79,7 +79,7 @@ export default function BenefitsSection() {
                     src={benefit.image} 
                     alt={benefit.title}
                     className="w-full h-full object-cover"
-                                        onError={(e) => {
+                    onError={(e) => {
                        (e.target as HTMLImageElement).src = '/mockup2.png'; // Fallback para imagem do produto
                      }}
                   />
@@ -98,15 +98,15 @@ export default function BenefitsSection() {
           ))}
         </div>
 
-                 {/* Botão CTA */}
-         <div className="text-center">
-           <button 
-             onClick={scrollToKits}
-             className="bg-green-600 hover:bg-green-700 text-white text-lg font-extrabold py-5 px-12 rounded-lg shadow-lg shadow-green-600/50 hover:shadow-xl hover:shadow-green-600/60 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 relative z-10 border-2 border-green-500"
-           >
-             O DEFINAMAX É PERFEITO PARA MIM!
-           </button>
-         </div>
+        {/* Botão CTA */}
+        <div className="text-center">
+          <button 
+            onClick={scrollToKits}
+            className="bg-green-600 hover:bg-green-700 text-white text-lg font-extrabold py-5 px-12 rounded-lg shadow-lg shadow-green-600/50 hover:shadow-xl hover:shadow-green-600/60 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 relative z-10 border-2 border-green-500"
+          >
+            O BIOCAPILAR É PERFEITO PARA MIM!
+          </button>
+        </div>
       </div>
     </section>
   )

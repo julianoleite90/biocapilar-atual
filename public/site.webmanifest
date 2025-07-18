@@ -1,30 +1,30 @@
 {
-  "name": "Definamax - Emagrecedor Natural",
-  "short_name": "Definamax",
-  "description": "Emagrecedor natural mais vendido do Brasil. Perca até 30kg em 5 meses com segurança.",
+  "name": "Biocapilar® - Acabe com a Queda de Cabelo em 4 Semanas",
+  "short_name": "Biocapilar",
+  "description": "Acabe com a queda dos cabelos em até 4 semanas, e acelere o crescimento de novos fios, com o Biocapilar. A fórmula capilar mais usada e recomendada da América Latina.",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "/icon.png",
       "sizes": "16x16 32x32",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "/favicon-16x16.png",
+      "src": "/icon.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
+      "src": "/icon.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/icon.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/logo-definamax.png",
+      "src": "/icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

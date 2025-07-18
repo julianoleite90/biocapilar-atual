@@ -8,44 +8,44 @@ import UTMHandler from './components/UTMHandler'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.definamaxoficial.com'),
-  title: 'Definamax - Site Oficial | Emagrecedor Natural #1 do Brasil',
-  description: 'Emagreça até 10kg em 30 dias com Definamax, o emagrecedor natural mais vendido do Brasil. ✓ 100% Natural ✓ Envio Imediato ✓ Resultados Garantidos ✓ Frete Grátis',
-  keywords: 'definamax, emagrecedor natural, perda de peso, metabolismo, compulsão alimentar, emagrecer, perder peso, gordura localizada',
+  metadataBase: new URL('https://www.biocapilaroficial.com'),
+  title: 'Biocapilar® - Acabe com a Queda de Cabelo em 4 Semanas | Fórmula #1 da América Latina',
+  description: 'Acabe com a queda dos cabelos em até 4 semanas, e acelere o crescimento de novos fios, com o Biocapilar. A fórmula capilar mais usada e recomendada da América Latina.',
+  keywords: 'biocapilar, queda de cabelo, crescimento capilar, suplemento capilar, queda cabelos mulher, calvicie feminina, alopecia, biotina, colágeno capilar, vitaminas cabelo, tratamento queda cabelo, fortalecer cabelos, cabelos fracos, cabelos finos, crescer cabelo rapido',
   alternates: {
-    canonical: 'https://www.definamaxoficial.com'
+    canonical: 'https://www.biocapilaroficial.com'
   },
   openGraph: {
-    title: 'Definamax - Site Oficial | Emagrecedor Natural',
-    description: 'Emagreça até 10kg em 30 dias com Definamax, o emagrecedor natural mais vendido do Brasil. ✓ 100% Natural ✓ Envio Imediato ✓ Resultados Garantidos ✓ Frete Grátis',
-    url: 'https://www.definamaxoficial.com',
-    siteName: 'Definamax Oficial',
-    type: 'website',
+    title: 'Biocapilar® - Acabe com a Queda de Cabelo em 4 Semanas | Fórmula #1 da América Latina',
+    description: 'Acabe com a queda dos cabelos em até 4 semanas, e acelere o crescimento de novos fios, com o Biocapilar. A fórmula capilar mais usada e recomendada da América Latina.',
+    url: 'https://www.biocapilaroficial.com',
+    siteName: 'Biocapilar Oficial',
+    type: 'product',
     locale: 'pt_BR',
     images: [
       {
-        url: '/opengraph-image.jpg',
+        url: '/aimagem.png',
         width: 1200,
         height: 630,
-        alt: 'Definamax - Emagrecedor Natural',
-        type: 'image/jpeg',
+        alt: 'Biocapilar - Suplemento Capilar Natural',
+        type: 'image/png',
       },
       {
         url: '/mockup2.png',
         width: 800,
         height: 600,
-        alt: 'Frasco Definamax',
+        alt: 'Frasco Biocapilar',
         type: 'image/png',
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Definamax - Site Oficial | Resultados em 30 Dias',
-    description: 'Emagreça até 10kg em 30 dias com Definamax. ✓ 100% Natural ✓ Envio Imediato ✓ Resultados Garantidos ✓ Frete Grátis',
-    images: ['/opengraph-image.jpg'],
-    creator: '@definamax',
-    site: '@definamax'
+    title: 'Biocapilar® - Acabe com a Queda de Cabelo em 4 Semanas',
+    description: 'Acabe com a queda dos cabelos em até 4 semanas, e acelere o crescimento de novos fios, com o Biocapilar. A fórmula capilar mais usada e recomendada da América Latina.',
+    images: ['/aimagem.png'],
+    creator: '@biocapilar',
+    site: '@biocapilar'
   },
   robots: {
     index: true,
@@ -71,15 +71,15 @@ export const metadata: Metadata = {
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
-  name: 'Definamax',
-  description: 'Suplemento natural para emagrecimento saudável e eficaz',
+  name: 'Biocapilar',
+  description: 'Suplemento natural para fortalecimento capilar e combate à queda de cabelo',
   image: [
-    'https://www.definamaxoficial.com/mockup2.png',
-    'https://www.definamaxoficial.com/opengraph-image.jpg'
+    'https://www.biocapilaroficial.com/mockup2.png',
+    'https://www.biocapilaroficial.com/aimagem.png'
   ],
   brand: {
     '@type': 'Brand',
-    name: 'Definamax'
+    name: 'Biocapilar'
   },
   offers: {
     '@type': 'AggregateOffer',
@@ -90,7 +90,7 @@ const productSchema = {
     offerCount: '3',
     seller: {
       '@type': 'Organization',
-      name: 'Definamax'
+      name: 'CapilaMax'
     },
     priceValidUntil: '2025-12-31'
   },
@@ -114,7 +114,7 @@ const productSchema = {
         name: 'Mariana C.'
       },
       datePublished: '2025-05-05',
-      reviewBody: 'Perdi 8kg em 2 meses com o Definamax. Realmente funciona!'
+      reviewBody: 'Meus cabelos pararam de cair em 2 meses com o Biocapilar. Realmente funciona!'
     },
     {
       '@type': 'Review',
@@ -125,10 +125,10 @@ const productSchema = {
       },
       author: {
         '@type': 'Person',
-        name: 'Lucas M.'
+        name: 'Ana M.'
       },
       datePublished: '2025-04-28',
-      reviewBody: 'Em 3 meses, perdi 9kg e agora consigo jogar uma pelada sem passar vergonha.'
+      reviewBody: 'Em 3 meses, meus cabelos ficaram mais fortes e volumosos. Estou muito feliz!'
     }
   ]
 }
@@ -136,12 +136,12 @@ const productSchema = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Definamax',
-  url: 'https://www.definamaxoficial.com',
-  logo: 'https://www.definamaxoficial.com/logo2.png',
+  name: 'Biocapilar',
+  url: 'https://www.biocapilaroficial.com',
+  logo: 'https://www.biocapilaroficial.com/logo2.png',
   sameAs: [
-    'https://www.instagram.com/definamax',
-    'https://www.facebook.com/definamax'
+    'https://www.instagram.com/biocapilar',
+    'https://www.facebook.com/biocapilar'
   ],
   contactPoint: {
     '@type': 'ContactPoint',
@@ -159,7 +159,7 @@ const breadcrumbSchema = {
     '@type': 'ListItem',
     position: 1,
     name: 'Home',
-    item: 'https://www.definamaxoficial.com'
+    item: 'https://www.biocapilaroficial.com'
   }]
 }
 
@@ -172,7 +172,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <meta name="format-detection" content="telephone=no" />
-        <link rel="canonical" href="https://www.definamaxoficial.com" />
+        <link rel="canonical" href="https://www.biocapilaroficial.com" />
         
         {/* Favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

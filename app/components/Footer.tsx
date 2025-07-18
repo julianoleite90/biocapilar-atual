@@ -7,12 +7,12 @@ export default function Footer() {
           <div className="flex justify-center mb-4">
             <img 
               src="/logo2.png" 
-              alt="Definamax" 
+              alt="Biocapilar" 
               className="h-12 w-auto"
             />
           </div>
           <p className="text-green-100 max-w-4xl mx-auto leading-relaxed">
-            Definamax - O seu aliado natural para o emagrecimento saudável e eficaz.
+            Biocapilar - O seu aliado natural para cabelos mais fortes e saudáveis.
           </p>
         </div>
 
@@ -20,17 +20,17 @@ export default function Footer() {
         <div className="text-center mb-8">
           <p className="text-green-100 text-sm max-w-4xl mx-auto leading-relaxed">
             *Resultados podem variar de pessoa para pessoa. Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer 
-            doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de emagrecimento.
+            doença. Consulte sempre um profissional de saúde qualificado antes de iniciar qualquer programa de fortalecimento capilar.
           </p>
         </div>
 
         {/* Links */}
         <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 mb-8 text-sm">
           <a href="#" className="text-green-100 hover:text-white transition-colors">
-            Avaliação do IMC
+            Avaliação Capilar
           </a>
           <span className="text-green-300">|</span>
-          <a href="https://www.definamaxoficial.com/termos" className="text-green-100 hover:text-white transition-colors">
+          <a href="https://www.capilamaxoficial.com/termos" className="text-green-100 hover:text-white transition-colors">
             Termos de Garantia
           </a>
           <span className="text-green-300">|</span>
@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center border-t border-green-600 pt-6">
           <p className="text-green-100 text-sm mb-2">
-            Copyright © 2025 Definamax. Todos os direitos reservados.
+            Copyright © 2025 Biocapilar. Todos os direitos reservados.
           </p>
           <p className="text-green-200 text-sm">
             Bourjan Nature Health, Florianópolis Santa Catarina

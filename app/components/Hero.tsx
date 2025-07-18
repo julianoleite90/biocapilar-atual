@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="lg:hidden">
           {/* Main Headline - Mobile */}
           <h1 className="text-3xl font-bold text-green-700 leading-tight text-center mb-6">
-            Emagreça rápido, recupere sua autoestima e renove a sua confiança
+            Pare a queda de cabelo, estimule o crescimento e recupere sua confiança feminina
           </h1>
 
           {/* Product Image - Mobile */}
@@ -24,7 +24,7 @@ export default function Hero() {
               <div className="relative">
                 <img 
                   src="/hero.png" 
-                  alt="Definamax Pro - 2 Frascos" 
+                  alt="Biocapilar Pro - Suplemento Capilar Feminino" 
                   className="max-w-[315px] h-auto drop-shadow-2xl"
                   style={{ maxHeight: '500px' }}
                 />
@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Subheadline - Mobile */}
           <p className="text-base text-gray-600 leading-relaxed text-center mb-6">
-            Descubra o poder das fibras que absorvem gordura, controlam a compulsão e aceleram seu metabolismo – <strong className="text-gray-800 font-bold">Assuma o controle do seu peso, de forma natural e segura, sem colocar sua saúde em risco.</strong>
+            Descubra a fórmula revolucionária com nutrientes essenciais que fortalecem os folículos capilares, estimulam o crescimento e reduzem a queda – <strong className="text-gray-800 font-bold">Recupere cabelos mais fortes, volumosos e saudáveis de forma natural e sem efeitos colaterais.</strong>
           </p>
 
           {/* CTA Button - Mobile */}
@@ -45,7 +45,7 @@ export default function Hero() {
               onClick={scrollToKits}
               className="bg-green-600 hover:bg-green-700 text-white text-xs font-extrabold py-6 px-12 rounded-lg shadow-lg shadow-green-600/50 hover:shadow-xl hover:shadow-green-600/60 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 relative z-10 w-full max-w-sm border-2 border-green-500"
             >
-              SIM, QUERO COMEÇAR A EMAGRECER!
+              SIM, QUERO TER CABELOS MAIS FORTES!
             </button>
           </div>
 
@@ -67,19 +67,19 @@ export default function Hero() {
             <div className="flex items-center gap-3">
               <img 
                 src="/logo-outracor.png" 
-                alt="Definamax" 
+                alt="Biocapilar" 
                 className="h-12 w-auto"
               />
             </div>
 
             {/* Main Headline - Desktop */}
             <h1 className="text-4xl lg:text-5xl font-bold text-green-700 leading-tight text-left">
-              Emagreça rápido, recupere sua autoestima e renove a sua confiança
+              Pare a queda de cabelo, estimule o crescimento e recupere sua confiança feminina
             </h1>
 
             {/* Subheadline - Desktop */}
             <p className="text-xl text-gray-600 leading-relaxed text-left">
-              Descubra o poder das fibras que absorvem gordura, controlam a compulsão e aceleram seu metabolismo – <strong className="text-gray-800 font-bold">Assuma o controle do seu peso, de forma natural e segura, sem colocar sua saúde em risco.</strong>
+              Descubra a fórmula revolucionária com nutrientes essenciais que fortalecem os folículos capilares, estimulam o crescimento e reduzem a queda – <strong className="text-gray-800 font-bold">Recupere cabelos mais fortes, volumosos e saudáveis de forma natural e sem efeitos colaterais.</strong>
             </p>
 
             {/* CTA Button - Desktop */}
@@ -88,7 +88,7 @@ export default function Hero() {
                 onClick={scrollToKits}
                 className="bg-green-600 hover:bg-green-700 text-white text-lg font-extrabold py-5 px-12 rounded-lg shadow-lg shadow-green-600/50 hover:shadow-xl hover:shadow-green-600/60 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 relative z-10 border-2 border-green-500"
               >
-                SIM, QUERO COMEÇAR A EMAGRECER!
+                SIM, QUERO TER CABELOS MAIS FORTES!
               </button>
             </div>
 
@@ -108,7 +108,7 @@ export default function Hero() {
               <div className="relative">
                 <img 
                   src="/hero.png" 
-                  alt="Definamax Pro - 2 Frascos" 
+                  alt="Biocapilar Pro - Suplemento Capilar Feminino" 
                   className="max-w-full h-auto drop-shadow-2xl"
                   style={{ maxHeight: '500px' }}
                 />

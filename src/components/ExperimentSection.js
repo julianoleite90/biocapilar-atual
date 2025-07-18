@@ -73,7 +73,7 @@ const SectionTitle = styled(motion.h2)`
   line-height: 1.2;
   
   .highlight {
-    color: #1a4d2e;
+    color: #000000;
     font-size: 0.7em;
   }
 `;
@@ -90,7 +90,7 @@ const Description = styled(motion.p)`
 `;
 
 const CTAButton = styled(motion.button)`
-  background: #1a4d2e;
+  background: #8B2C5A;
   color: white;
   border: none;
   padding: 18px 40px;
@@ -101,12 +101,12 @@ const CTAButton = styled(motion.button)`
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 8px 20px rgba(26, 77, 46, 0.4);
+  box-shadow: 0 8px 20px rgba(139, 44, 90, 0.4);
   
   &:hover {
-    background: #0f2c1a;
+    background: #6F1F42;
     transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(26, 77, 46, 0.6);
+    box-shadow: 0 12px 30px rgba(139, 44, 90, 0.6);
   }
   
   @media (max-width: 768px) {
@@ -172,7 +172,7 @@ const ExperimentSection = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Fazer o uso do Definamax® é uma experiência única que só vivenciando você conseguirá entender 
+              Fazer o uso do Biocapilar® é uma experiência única que só vivenciando você conseguirá entender 
               porque mais de 45 mil pessoas tiveram suas vidas transformadas. Por isso, após a sua compra, você 
               terá 30 dias para experimentar. Você poderá testar sem riscos e se por qualquer 
               razão não gostar ou se adaptar, basta enviar um simples email para nossa atenciosa equipe de atendimento 

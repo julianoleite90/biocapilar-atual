@@ -2,44 +2,44 @@ export default function FormulationSection() {
   const ingredients = [
     {
       id: 1,
-      name: "Quitosana",
+      name: "Biotina",
       image: "/ing-2.png",
-      benefits: ["Combate Hipertensão", "Bloqueador de Gordura"],
+      benefits: ["Fortalece os Fios", "Estimula Crescimento"],
       position: "top-left"
     },
     {
       id: 2,
-      name: "Espirulina",
+      name: "Colágeno Hidrolisado",
       image: "/ing-4.png", 
-      benefits: ["Reduz Colesterol", "Fortalece Imunidade"],
+      benefits: ["Elasticidade Capilar", "Reduz Quebra"],
       position: "left"
     },
     {
       id: 3,
-      name: "Psyllium",
+      name: "Ácido Fólico",
       image: "/ing-3.png",
-      benefits: ["Reduz Triglicerídeos", "Promove a Saciedade"],
+      benefits: ["Regenera Folículos", "Melhora Circulação"],
       position: "bottom-left"
     },
     {
       id: 4,
-      name: "Fibras bioativas",
+      name: "Vitamina E",
       image: "/ing-1.png",
-      benefits: ["Fortalece Sistema Imune", "Aumenta Energia"],
+      benefits: ["Antioxidante Natural", "Protege dos Radicais Livres"],
       position: "top-right"
     },
     {
       id: 5,
-      name: "Agar Agar",
+      name: "Zinco",
       image: "/ing-6.png",
-      benefits: ["Reduz Gordura Corporal", "Reduz a Fadiga"],
+      benefits: ["Fortalece Raiz", "Previne Queda"],
       position: "right"
     },
     {
       id: 6,
-      name: "Cromo",
+      name: "Ferro Quelato",
       image: "/ing-5.png",
-      benefits: ["Controla Glicemia", "Acelera Metabolismo"],
+      benefits: ["Oxigena Folículos", "Acelera Crescimento"],
       position: "bottom-right"
     }
   ]
@@ -50,12 +50,12 @@ export default function FormulationSection() {
         {/* Header */}
         <div className="text-center mb-16 lg:mb-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Conheça a formulação do <span className="text-green-700">Definamax</span>!
+            Conheça a formulação do <span className="text-green-700">Biocapilar</span>!
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
             Uma fórmula exclusiva com{" "}
-                          <span className="underline decoration-green-700 decoration-2">fibras bioativas que agem como uma esponja</span>{" "}
-            no seu organismo, absorvendo gorduras e açúcares para reduzir a absorção calórica, controlar a fome e acelerar a perda de peso de forma natural e eficaz.
+            <span className="underline decoration-green-700 decoration-2">nutrientes bioativos que agem diretamente na raiz</span>{" "}
+            dos seus cabelos, fortalecendo os folículos, estimulando o crescimento e reduzindo a queda de forma natural e eficaz.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export default function FormulationSection() {
               </div>
               <img 
                 src="/ingredientes.png" 
-                alt="Ingredientes Definamax"
+                alt="Ingredientes Biocapilar"
                 className="absolute w-[32rem] h-[32rem] object-contain z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full border-4 border-white shadow-lg z-5"></div>
@@ -117,7 +117,7 @@ export default function FormulationSection() {
                 </div>
                 <img 
                   src="/ingredientes.png" 
-                  alt="Ingredientes Definamax"
+                  alt="Ingredientes Biocapilar"
                   className="absolute object-contain z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                   style={{ width: '25.7rem', height: '25.7rem', maxWidth: 'none', maxHeight: 'none' }}
                 />

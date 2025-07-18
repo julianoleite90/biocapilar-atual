@@ -2,21 +2,21 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Definamax - Emagrecedor Natural Número 1 do Brasil',
-    short_name: 'Definamax',
-    description: 'Emagreça até 30kg de forma natural e segura com Definamax. Fibras bioativas que absorvem gordura, controlam compulsão e aceleram metabolismo.',
-    start_url: '/landing-page-vencedora',
+    name: 'Biocapilar - Suplemento Capilar Número 1 do Brasil',
+    short_name: 'Biocapilar',
+    description: 'Fortaleça seus cabelos e pare a queda com Biocapilar. Fórmula natural que regenera folículos, reduz queda e acelera crescimento.',
+    start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
-    theme_color: '#15803d',
+    theme_color: '#8B2C5A',
     icons: [
       {
-        src: '/logo2.png',
+        src: '/icon.png',
         sizes: '192x192',
         type: 'image/png',
       },
       {
-        src: '/logo2.png',
+        src: '/icon.png',
         sizes: '512x512',
         type: 'image/png',
       },

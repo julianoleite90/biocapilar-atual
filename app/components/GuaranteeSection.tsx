@@ -14,7 +14,7 @@ export default function GuaranteeSection() {
           <div className="flex justify-center mb-8">
             <img 
               src="/garantia-definamax.png" 
-              alt="Garantia de 30 dias Definamax" 
+              alt="Garantia de 30 dias Biocapilar" 
               className="w-96 h-auto"
             />
           </div>
@@ -22,11 +22,11 @@ export default function GuaranteeSection() {
           <div className="space-y-4 text-center">
             <p className="text-lg text-gray-700 leading-relaxed">
               Se você não ficar 100% satisfeita com os resultados do{" "}
-              <span className="font-bold text-green-700">Definamax</span>, a qualquer momento nos próximos 30 dias,
+              <span className="font-bold text-green-700">Biocapilar</span>, a qualquer momento nos próximos 30 dias,
               nós devolvemos 100% do seu dinheiro. Sem perguntas, sem complicações.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              É simples assim: experimente por 30 dias e veja os resultados por si mesma.
+              É simples assim: experimente por 30 dias e veja os resultados nos seus cabelos por si mesma.
               Sua satisfação é nossa prioridade!
             </p>
           </div>
@@ -42,11 +42,11 @@ export default function GuaranteeSection() {
             <div className="space-y-4">
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                 Se você não ficar 100% satisfeita com os resultados do{" "}
-                <span className="font-bold text-green-700">Definamax</span>, a qualquer momento nos próximos 30 dias,
+                <span className="font-bold text-green-700">Biocapilar</span>, a qualquer momento nos próximos 30 dias,
                 nós devolvemos 100% do seu dinheiro. Sem perguntas, sem complicações.
               </p>
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-                É simples assim: experimente por 30 dias e veja os resultados por si mesma.
+                É simples assim: experimente por 30 dias e veja os resultados nos seus cabelos por si mesma.
                 Sua satisfação é nossa prioridade!
               </p>
             </div>
@@ -55,7 +55,7 @@ export default function GuaranteeSection() {
           <div className="flex justify-center">
             <img 
               src="/garantia-definamax.png" 
-              alt="Garantia de 30 dias Definamax" 
+              alt="Garantia de 30 dias Biocapilar" 
               className="w-[500px] h-auto"
             />
           </div>
