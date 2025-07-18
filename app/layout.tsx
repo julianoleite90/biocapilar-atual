@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     locale: 'pt_BR',
     images: [
       {
-        url: '/aimagem.png',
+        url: 'https://www.biocapilaroficial.com/aimagem.png',
         width: 1200,
         height: 630,
         alt: 'Biocapilar - Suplemento Capilar Natural',
         type: 'image/png',
       },
       {
-        url: '/mockup2.png',
+        url: 'https://www.biocapilaroficial.com/mockup2.png',
         width: 800,
         height: 600,
         alt: 'Frasco Biocapilar',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Biocapilar® - Acabe com a Queda de Cabelo em 4 Semanas',
     description: 'Acabe com a queda dos cabelos em até 4 semanas, e acelere o crescimento de novos fios, com o Biocapilar. A fórmula capilar mais usada e recomendada da América Latina.',
-    images: ['/aimagem.png'],
+    images: ['https://www.biocapilaroficial.com/aimagem.png'],
     creator: '@biocapilar',
     site: '@biocapilar'
   },
