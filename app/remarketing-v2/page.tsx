@@ -179,7 +179,7 @@ export default function ReMarketingPageV2() {
             <Image src="/logo2.png" alt="Definamax" width={200} height={40} className="h-8 w-auto" />
           </Link>
           <Link
-            href="https://full.sale/ytA47b?rmkt1"
+            href="https://full.sale/StS5A0?rmkt1"
             className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-2 rounded-lg transition-all duration-300"
           >
             COMPRAR
@@ -491,7 +491,7 @@ export default function ReMarketingPageV2() {
                   FRETE GRÁTIS
                 </div>
                 <Link
-                  href="https://full.sale/ytA47b"
+                  href="https://full.sale/StS5A0"
                   className="block w-full bg-green-600 text-white text-center py-4 rounded-xl font-bold hover:bg-green-700 transition-all mb-4"
                 >
                   COMPRAR AGORA
@@ -545,7 +545,7 @@ export default function ReMarketingPageV2() {
                   FRETE GRÁTIS
                 </div>
                 <Link
-                  href="https://full.sale/DmNQj1"
+                  href="https://full.sale/aODHU2"
                   className="block w-full bg-green-600 text-white text-center py-4 rounded-xl font-bold hover:bg-green-700 transition-all mb-4"
                 >
                   COMPRAR AGORA

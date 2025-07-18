@@ -117,7 +117,7 @@ export default function AvaliacaoPage() {
       return {
         nome: "Kit 8 Frascos",
         imagem: "/8frascos.png",
-        link: "https://full.sale/XONObQ?src=teste-imc",
+        link: "https://full.sale/StS5A0?src=teste-imc",
         descricao: "Tratamento Completo - Compre 5 Leve 8",
         bonus: "2 Frascos de Colágeno GRÁTIS",
         perda: "24 a 27kg"
@@ -126,7 +126,7 @@ export default function AvaliacaoPage() {
       return {
         nome: "Kit 5 Frascos",
         imagem: "/5frascos.png",
-        link: "https://full.sale/ytA47b?src=teste-imc",
+        link: "https://full.sale/StS5A0?src=teste-imc",
         descricao: "Tratamento Recomendado - Compre 3 Leve 5",
         bonus: "1 Frasco de Colágeno GRÁTIS",
         perda: "19 a 23kg"
@@ -135,7 +135,7 @@ export default function AvaliacaoPage() {
       return {
         nome: "Kit 3 Frascos",
         imagem: "/2frascos.png",
-        link: "https://full.sale/DmNQj1?src=teste-imc",
+        link: "https://full.sale/aODHU2?src=teste-imc",
         descricao: "Tratamento Médio - Compre 2 Leve 3",
         bonus: "Envio Imediato",
         perda: "13 a 15kg"
@@ -144,7 +144,7 @@ export default function AvaliacaoPage() {
       return {
         nome: "Kit 1 Frasco",
         imagem: "/1frasco.png",
-        link: "https://full.sale/eMbtHp?src=teste-imc",
+        link: "https://full.sale/JdRxH7?src=teste-imc",
         descricao: "Tratamento Inicial",
         bonus: "Envio Imediato",
         perda: "5 a 7kg"

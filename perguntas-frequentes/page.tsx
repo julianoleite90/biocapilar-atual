@@ -218,7 +218,7 @@ export default function DefinamaxFAQ() {
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
             <Link
-              href={addUtmToUrl("https://full.sale/DmNQj1")}
+              href={addUtmToUrl("https://full.sale/aODHU2")}
               className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-base font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
             >
               COMPRAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -353,7 +353,7 @@ export default function DefinamaxFAQ() {
                       </div>
                     </div>
                     <Link
-                      href={addUtmToUrl("https://full.sale/DmNQj1")}
+                      href={addUtmToUrl("https://full.sale/aODHU2")}
                       className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full"
                     >
                       COMPRAR AGORA
@@ -480,7 +480,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         EXPERIMENTAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -648,7 +648,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         QUERO EXPERIMENTAR <ArrowRight className="ml-2 h-5 w-5" />
@@ -802,7 +802,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR DEFINAMAX <ArrowRight className="ml-2 h-5 w-5" />
@@ -939,7 +939,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR DEFINAMAX OFICIAL <ArrowRight className="ml-2 h-5 w-5" />
@@ -1012,7 +1012,7 @@ export default function DefinamaxFAQ() {
                             </div>
                           </div>
                           <Link
-                            href={addUtmToUrl("https://full.sale/DmNQj1")}
+                            href={addUtmToUrl("https://full.sale/aODHU2")}
                             className="inline-flex items-center justify-center rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700 w-full"
                           >
                             COMPRAR ORIGINAL
@@ -1128,7 +1128,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR DEFINAMAX ORIGINAL <ArrowRight className="ml-2 h-5 w-5" />
@@ -1502,7 +1502,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         COMPRAR COM FRETE GRÁTIS <ArrowRight className="ml-2 h-5 w-5" />
@@ -1609,7 +1609,7 @@ export default function DefinamaxFAQ() {
                           </div>
 
                           <Link
-                            href={addUtmToUrl("https://full.sale/ytA47b")}
+                            href={addUtmToUrl("https://full.sale/StS5A0")}
                             className="block w-full py-4 px-6 text-center text-xl font-bold text-white bg-gradient-to-r from-green-500 to-green-600 rounded-full hover:from-green-600 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                           >
                             COMPRAR AGORA
@@ -1716,7 +1716,7 @@ export default function DefinamaxFAQ() {
 
                     <div className="flex justify-center mt-6">
                       <Link
-                        href={addUtmToUrl("https://full.sale/DmNQj1")}
+                        href={addUtmToUrl("https://full.sale/aODHU2")}
                         className="inline-flex items-center justify-center rounded-lg bg-green-600 px-6 py-3 text-base font-medium text-white hover:bg-green-700 hover:scale-105 transition-all"
                       >
                         APROVEITAR DESCONTO <ArrowRight className="ml-2 h-5 w-5" />
@@ -1734,7 +1734,7 @@ export default function DefinamaxFAQ() {
                   promoção por tempo limitado!
                 </p>
                 <Link
-                  href={addUtmToUrl("https://full.sale/DmNQj1")}
+                  href={addUtmToUrl("https://full.sale/aODHU2")}
                   className="inline-flex items-center justify-center rounded-lg bg-white text-green-600 px-6 py-3 text-base font-bold hover:bg-gray-100 hover:scale-105 transition-all w-full"
                 >
                   EXPERIMENTAR DEFINAMAX AGORA <ArrowRight className="ml-2 h-5 w-5" />
@@ -1872,7 +1872,7 @@ export default function DefinamaxFAQ() {
 
           <div className="flex justify-center mt-8">
             <Link
-              href={addUtmToUrl("https://full.sale/DmNQj1")}
+              href={addUtmToUrl("https://full.sale/aODHU2")}
               className="inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-green-600 to-green-500 px-6 py-3 text-base font-bold text-white hover:from-green-500 hover:to-green-600 hover:scale-105 transition-all shadow-lg hover:shadow-xl border-b-4 border-green-700"
             >
               EU TAMBÉM QUERO EMAGRECER! <ArrowRight className="ml-2 h-5 w-5" />

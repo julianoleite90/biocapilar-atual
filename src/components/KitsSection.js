@@ -349,7 +349,7 @@ const KitsSection = () => {
         "Envio imediato"
       ],
       image: "/5frascos.png",
-      link: "https://full.sale/ytA47b"
+      link: "https://full.sale/StS5A0"
     },
     {
       title: "TRATAMENTO PARA",
@@ -364,7 +364,7 @@ const KitsSection = () => {
       ],
       image: "/2frascos.png",
       popular: true,
-      link: "https://full.sale/DmNQj1"
+      link: "https://full.sale/aODHU2"
     },
     {
       title: "TRATAMENTO PARA",
@@ -377,7 +377,7 @@ const KitsSection = () => {
         "Envio imediato"
       ],
       image: "/1frasco.png",
-      link: "https://full.sale/eMbtHp"
+      link: "https://full.sale/JdRxH7"
     }
   ];
 
