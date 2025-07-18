@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://www.biocapilaroficial.com/aimagem.png',
-        width: 1200,
-        height: 630,
+        width: 1920,
+        height: 1080,
         alt: 'Biocapilar - Suplemento Capilar Natural',
         type: 'image/png',
       },
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
     google: '055Y8Zlr7CXBMOD8_TVqgFAiashS0o5vcUD8K7vxO_s',
   },
   other: {
-    'msapplication-TileColor': '#10b981',
-    'theme-color': '#10b981',
+    'msapplication-TileColor': '#8B2C5A',
+    'theme-color': '#8B2C5A',
   }
 }
 
